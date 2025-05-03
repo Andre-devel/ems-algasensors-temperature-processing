@@ -57,7 +57,7 @@ public class TemperatureProcessingController {
         };
         
         // Envia a mensagem para a exchange 
-        rabbitTemplate.convertAndSend(FANOUT_EXCHANGE_NAME, logOutput, messagePostProcessor);
+        rabbitTemplate.convertAndSend(FANOUT_EXCHANGE_NAME, "",logOutput, messagePostProcessor);
         
     } 
 }
