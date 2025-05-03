@@ -25,6 +25,8 @@ bin/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+/microservices/temperature-processing/runConfigurations/
+
 
 ### NetBeans ###
 /nbproject/private/
